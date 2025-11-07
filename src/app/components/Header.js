@@ -32,7 +32,7 @@ export default function Header() {
       </div>
 
       <nav>
-        <ul className="bg-black text-white flex text-xl gap-20 justify-center items-center">
+        <ul className="bg-white text-black flex text-xl gap-20 justify-center items-center">
           {navBar.map((nav) => (
             <li
               key={nav.id}
