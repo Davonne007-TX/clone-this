@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function QuickLinks() {
   return (
-    <section className="flex gap-10">
-      <div className="flex gap-4 justify-center items-center">
+    <section className="flex flex-col lg:flex-row gap-8 lg:gap-10">
+      <div className="flex gap-4 mt-4 lg:mt-0 justify-center items-center">
         <Image
           src="/images/burger2.png"
           alt="Burger icon by icons8"
@@ -36,7 +36,7 @@ export default function QuickLinks() {
           Search
         </li>
       </div>
-      <div className="flex">
+      <div className="flex shadow-xl rounded-lg over-flow-hidden">
         <button
           className="bg-white p-2 text-red-600 rounded rounded-r-none cursor-pointer hover:scale-105"
           style={{ fontFamily: "var(--font-slackey)" }}

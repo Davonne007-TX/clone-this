@@ -11,7 +11,7 @@ export default function Header() {
 
   return (
     <header className="w-full text-white">
-      <div className="bg-red-600/80 w-full flex justify-center gap-8 p-2 items-center">
+      <div className="bg-red-600/80 w-full flex flex-col lg:flex-row justify-center gap-8 p-2 items-center">
         <Image
           src="/images/girl.png"
           width={80}
@@ -19,9 +19,9 @@ export default function Header() {
           alt="Gabby, girl icon by icons8"
           className="border-2 border-black rounded"
         />
-        <div className="flex gap-32">
+        <div className="lg:flex gap-32">
           <h1
-            className="text-3xl"
+            className="text-3xl text-center font-bold tracking-widest"
             style={{ fontFamily: "var(--font-slackey)" }}
           >
             The Spot
@@ -32,7 +32,7 @@ export default function Header() {
       </div>
 
       <nav>
-        <ul className="bg-white text-black flex text-xl gap-20 justify-center items-center">
+        <ul className="bg-white text-black hidden lg:flex text-xl gap-20 justify-center items-center">
           {navBar.map((nav) => (
             <li
               key={nav.id}
