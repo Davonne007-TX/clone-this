@@ -10,7 +10,7 @@ export default function QuickLinks() {
           width={40}
           height={40}
         />
-        <li className="list-none text-xl cursor-pointer hover:scale-105 hover:text-black font-bold">
+        <li className="list-none text-2xl cursor-pointer hover:scale-105 hover:text-black font-bold">
           Rewards
         </li>
       </div>{" "}
@@ -21,7 +21,7 @@ export default function QuickLinks() {
           width={40}
           height={40}
         />
-        <li className="list-none text-xl cursor-pointer hover:scale-105 hover:text-black font-bold">
+        <li className="list-none text-2xl cursor-pointer hover:scale-105 hover:text-black font-bold">
           Find Your Spot
         </li>
       </div>
@@ -32,7 +32,7 @@ export default function QuickLinks() {
           width={28}
           height={28}
         />
-        <li className="list-none text-xl cursor-pointer hover:scale-105 hover:text-black font-bold">
+        <li className="list-none text-2xl cursor-pointer hover:scale-105 hover:text-black font-bold">
           Search
         </li>
       </div>
