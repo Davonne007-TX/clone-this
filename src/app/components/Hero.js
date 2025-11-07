@@ -6,10 +6,14 @@ export default function Hero() {
       <Image
         src="/images/tenders.jpg"
         alt="Chicken tenders and fries"
-        width={960}
-        height={960}
-        className="object-cover mt-8 rounded"
+        width={980}
+        height={980}
+        className="object-cover relative mt-8 rounded"
       />
+
+      <p className="absolute top-60 rounded font-serif text-white text-4xl font-bold bg-black p-4">
+        Did someone say...Tenders?
+      </p>
     </section>
   );
 }

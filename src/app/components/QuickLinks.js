@@ -25,6 +25,17 @@ export default function QuickLinks() {
           Find Your Spot
         </li>
       </div>
+      <div className="flex gap-4 justify-center items-center">
+        <Image
+          src="/images/search.png"
+          alt="Search icon by icons8"
+          width={28}
+          height={28}
+        />
+        <li className="list-none text-xl cursor-pointer hover:scale-105 hover:text-black font-bold">
+          Search
+        </li>
+      </div>
       <div className="flex">
         <button
           className="bg-white p-2 text-red-600 rounded rounded-r-none cursor-pointer hover:scale-105"
