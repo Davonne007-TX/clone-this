@@ -18,7 +18,7 @@ export default function Header() {
 
   return (
     <header className="w-full text-white">
-      <div className="bg-red-600/80 w-full flex flex-col lg:flex-row justify-center gap-8 p-2 items-center">
+      <div className="bg-red-600/80 w-full flex flex-col p-2 lg:flex-row justify-center gap-4  items-center">
         <Image
           src="/images/girl.png"
           width={80}
@@ -28,7 +28,7 @@ export default function Header() {
         />
         <div className="lg:flex gap-32">
           <h1
-            className="text-5xl lg:text-4xl text-center font-bold tracking-widest"
+            className="text-5xl lg:text-4xl  lg:mt-4 text-center font-bold tracking-widest"
             style={{ fontFamily: "var(--font-slackey)" }}
           >
             The Spot
