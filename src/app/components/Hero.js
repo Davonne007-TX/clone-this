@@ -21,7 +21,7 @@ export default function Hero() {
           </span>
         </p>
         <p
-          className="mt-4 text-5xl md:text-7xl text-center bg-black w-full p-4 tracking-wide text-red-600 drop-shadow-2xl"
+          className="mt-4 text-5xl md:text-7xl text-center bg-black w-full p-4 tracking-wide text-red-600/80 drop-shadow-2xl"
           style={{ fontFamily: "var(--font-slackey)" }}
         >
           TENDERS?!
@@ -35,7 +35,7 @@ export default function Hero() {
                 Get your Chicken Tenders on! Its so good you may have to dip
                 twice.
               </p>
-              <button className="bg-linear-to-r from-red-500 to-red-600 hover:scale-105 cursor-pointer text-white rounded-full w-80 p-2 text-lg md:text-2xl mx-auto">
+              <button className="bg-linear-to-r from-red-500 to-red-600/80 hover:scale-105 cursor-pointer text-white rounded-full w-80 p-2 text-lg md:text-2xl mx-auto">
                 Order on the App
               </button>
             </div>

@@ -1,7 +1,13 @@
+"use client";
+
+import { useState } from "react";
+import { Menu, X } from "lucide-react";
 import Image from "next/image";
 import QuickLinks from "./QuickLinks";
 
 export default function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   const navBar = [
     { navLink: "Menu", id: 0 },
     { navLink: "Deals", id: 1 },
@@ -21,7 +27,7 @@ export default function Header() {
         />
         <div className="lg:flex gap-32">
           <h1
-            className="text-3xl text-center font-bold tracking-widest"
+            className="text-5xl lg:text-4xl text-center font-bold tracking-widest"
             style={{ fontFamily: "var(--font-slackey)" }}
           >
             The Spot
@@ -30,6 +36,14 @@ export default function Header() {
           <QuickLinks />
         </div>
       </div>
+
+      {/* Mobile Nav */}
+      <button
+        onClick={() => setMenuOpen(!menuOpen)}
+        className="lg:hidden absolute top-4 right-4 z-50 text-black cursor-pointer"
+      >
+        {menuOpen ? <X size={28} /> : <Menu size={28} />}
+      </button>
 
       <nav>
         <ul className="bg-white text-black hidden lg:flex text-xl gap-20 justify-center items-center">
@@ -43,6 +57,24 @@ export default function Header() {
             </li>
           ))}
         </ul>
+      </nav>
+
+      {/* Mobile Nav */}
+      <nav>
+        {menuOpen && (
+          <div className="lg:hidden bg-white text-black text-center flex flex-col gap-4 py-4 shadow-lg text-xl ">
+            {navBar.map((nav) => (
+              <li
+                key={nav.id}
+                style={{ fontFamily: "var(--font-slackey)" }}
+                className="cursor-pointer hover:underline transition-all duration-300"
+                onClick={() => setMenuOpen(false)}
+              >
+                {nav.navLink}
+              </li>
+            ))}
+          </div>
+        )}
       </nav>
     </header>
   );
