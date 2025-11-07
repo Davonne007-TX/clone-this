@@ -1,4 +1,5 @@
 import Image from "next/image";
+import QuickLinks from "./QuickLinks";
 
 export default function Header() {
   const navBar = [
@@ -10,7 +11,7 @@ export default function Header() {
 
   return (
     <header className="w-full text-white">
-      <div className="bg-red-600/80 w-full flex justify-between p-2 items-center">
+      <div className="bg-red-600/80 w-full flex justify-center gap-8 p-2 items-center">
         <Image
           src="/images/girl.png"
           width={80}
@@ -18,9 +19,16 @@ export default function Header() {
           alt="Gabby, girl icon by icons8"
           className="border-2 border-black rounded"
         />
-        <h1 className="text-3xl" style={{ fontFamily: "var(--font-slackey)" }}>
-          The Spot
-        </h1>
+        <div className="flex gap-32">
+          <h1
+            className="text-3xl"
+            style={{ fontFamily: "var(--font-slackey)" }}
+          >
+            The Spot
+          </h1>
+
+          <QuickLinks />
+        </div>
       </div>
 
       <nav>
