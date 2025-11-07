@@ -13,6 +13,7 @@ export default function Header() {
     { navLink: "Deals", id: 1 },
     { navLink: "History", id: 2 },
     { navLink: "Join our Team", id: 3 },
+    { navLink: "Contact Us", id: 4 },
   ];
 
   return (
@@ -67,7 +68,7 @@ export default function Header() {
               <li
                 key={nav.id}
                 style={{ fontFamily: "var(--font-slackey)" }}
-                className="cursor-pointer hover:underline transition-all duration-300"
+                className="cursor-pointer hover:underline p-2 transition-all duration-300"
                 onClick={() => setMenuOpen(false)}
               >
                 {nav.navLink}
