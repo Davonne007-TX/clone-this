@@ -25,6 +25,20 @@ export default function QuickLinks() {
           Find Your Spot
         </li>
       </div>
+      <div className="flex">
+        <button
+          className="bg-white p-2 text-red-600 rounded rounded-r-none cursor-pointer hover:scale-105"
+          style={{ fontFamily: "var(--font-slackey)" }}
+        >
+          Order Pickup
+        </button>
+        <button
+          className="bg-red-300 p-2 text-red-600 rounded-l-none rounded cursor-pointer hover:scale-105"
+          style={{ fontFamily: "var(--font-slackey)" }}
+        >
+          Order Delivery
+        </button>
+      </div>
     </section>
   );
 }
