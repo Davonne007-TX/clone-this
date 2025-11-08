@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Shake from "./Shake";
 
 export default function Exclusive() {
   const exclusiveItems = [
@@ -55,22 +56,22 @@ export default function Exclusive() {
 
   return (
     <section
-      className="flex flex-wrap  gap-10
+      className="flex flex-wrap gap-10
     justify-center items-center mt-10 lg:mt-20
     "
     >
       {exclusiveItems.map((item) => (
         <div
           key={item.id}
-          className="flex flex-col gap-4 justify-center items-center flex=wrap"
+          className="flex flex-col gap-8 justify-center items-center flex=wrap"
         >
           {item.src ? (
             <>
               <Image
                 src={item.src}
                 alt={item.alt}
-                width={190}
-                height={190}
+                width={160}
+                height={160}
                 className="rounded-2xl"
               />
               <p className="text-2xl font-bold">{item.item}</p>
@@ -82,6 +83,8 @@ export default function Exclusive() {
           )}
         </div>
       ))}
+
+      <Shake />
     </section>
   );
 }
