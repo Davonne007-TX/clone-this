@@ -23,13 +23,13 @@ export default function Shake() {
         >
           The Ultimate Shake Experience
         </h1>
-        <p className="mt-3 text-base sm:text-lg md:text-2xl text-gray-100">
+        <p className="mt-3 text-base sm:text-lg md:text-3xl text-gray-100">
           Sweet, creamy, and made just for you.
         </p>
         <p className="text-white mt-3 text-sm md:text-base">
           * Limited time special only for Holiday Season *
         </p>
-        <button className="mt-6 px-6 py-3 cursor-pointer bg-white text-red-600 font-semibold rounded-full shadow-lg hover:scale-105 transition-transform duration-300">
+        <button className="mt-6 px-6 py-3 cursor-pointer bg-white text-red-600 font-semibold rounded-full shadow-lg hover:scale-105 transition-transform duration-300 text=2xl">
           Order Now
         </button>
       </div>
