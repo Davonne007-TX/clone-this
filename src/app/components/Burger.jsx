@@ -13,11 +13,11 @@ export default function Burger() {
           height={600}
         />
         <Card
-          sectionStyle="max-w-sm md:max-w-lg flex flex-col gap-8 mt-2"
+          sectionStyle="max-w-sm md:max-w-2xl flex flex-col gap-8 mt-2"
           buttonText="Order Now"
           buttonStyle="bg-white text-red-600/80 text-2xl"
         >
-          <h1 className="font-bold text-white text-4xl leading-wide">
+          <h1 className="font-bold text-white text-5xl leading-wide">
             Did someone say Bacon?
           </h1>
           <p className="text-2xl text-white">
@@ -26,7 +26,7 @@ export default function Burger() {
             explosion you won't want to miss.
           </p>
 
-          <button className="py-2 px-4 rounded-full cursor-pointer hover:scale-105 transition-all duration-300 bg-white text-red-600/80 font-bold text-2xl w-90">
+          <button className="py-2 px-4 rounded-full cursor-pointer hover:scale-105 transition-all duration-300 bg-white text-red-600/80 font-bold text-2xl w-80">
             See All Toppings
           </button>
         </Card>
