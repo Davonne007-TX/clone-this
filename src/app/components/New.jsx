@@ -13,7 +13,7 @@ export default function New() {
           height={650}
         />
         <Card
-          sectionStyle="max-w-sm md:max-w-2xl flex flex-col gap-8 mt-2"
+          sectionStyle="max-w-sm md:max-w-2xl flex flex-col gap-6 mt-2"
           buttonText="Get $10 off Coupon"
           buttonStyle="bg-red-600/80 w-80 text-white text-2xl"
         >

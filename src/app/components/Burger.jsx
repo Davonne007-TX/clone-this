@@ -3,17 +3,17 @@ import Image from "next/image";
 
 export default function Burger() {
   return (
-    <section className="flex flex-co lg:flex-row gap-12 max-w-7xl my-8 mx-auto rounded-lg shadow-xs p-4">
-      <div className="w-full p-10 bg-red-600/80 flex flex-col lg:flex-row justify-center items-center gap-14">
+    <section className="flex flex-col lg:flex-row gap-8 max-w-7xl my-8 mx-auto rounded-lg shadow-xs p-4">
+      <div className="w-full p-12 bg-red-600/80 flex flex-col lg:flex-row justify-center items-center gap-24">
         <Image
           src="/images/burger.jpg"
           alt="Chicken Tender Meal with Toast"
           className="rounded-2xl"
-          width={600}
-          height={600}
+          width={650}
+          height={650}
         />
         <Card
-          sectionStyle="max-w-sm md:max-w-2xl flex flex-col gap-8"
+          sectionStyle="max-w-sm md:max-w-2xl flex flex-col gap-6"
           buttonText="Order Now"
           buttonStyle="bg-white text-red-600/80 text-2xl"
         >
