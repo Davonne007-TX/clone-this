@@ -9,7 +9,7 @@ export default function Card({
       {children}
       <button
         type="button"
-        className={`${buttonStyle} cursor-pointer p-2 rounded-full text-lg md:text-2xl`}
+        className={`${buttonStyle} py-2 px-4 rounded-full font-bold cursor-pointer hover:scale-105 transition-all duration-300`}
       >
         {buttonText}
       </button>
