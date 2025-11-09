@@ -2,6 +2,7 @@ import Exclusive from "./components/Exclusive";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import New from "./components/New";
+import Burger from "./components/Burger";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <Exclusive />
       <New />
+      <Burger />
     </main>
   );
 }

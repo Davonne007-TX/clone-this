@@ -3,17 +3,17 @@ import Card from "./reuseable/Card";
 
 export default function New() {
   return (
-    <section className="mt-20 max-w-6xl bg-white mx-auto p-8 rounded-lg shadow-lg ">
-      <div className="flex flex-col lg:flex-row justify-center items-center gap-12">
+    <section className="max-w-6xl my-8 mx-auto rounded-lg shadow-xs p-4">
+      <div className="flex flex-col lg:flex-row justify-center items-center gap-12 ml-8">
         <Image
           src="/images/tenderMeal.jpg"
           alt="Chicken Tender Meal with Toast"
-          className="mx-auto"
+          className="rounded-2xl"
           width={600}
           height={600}
         />
         <Card
-          sectionStyle="max=w=sm md:max-w-lg flex flex-col gap-8"
+          sectionStyle="max-w-sm md:max-w-lg flex flex-col gap-8 mt-2"
           buttonText="Get $10 off Coupon"
           buttonStyle="bg-red-600/80 text-white text-2xl"
         >
