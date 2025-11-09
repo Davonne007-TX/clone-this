@@ -15,9 +15,9 @@ export default function New() {
         <Card
           sectionStyle="max-w-sm md:max-w-2xl flex flex-col gap-8 mt-2"
           buttonText="Get $10 off Coupon"
-          buttonStyle="bg-red-600/80 text-white text-2xl"
+          buttonStyle="bg-red-600/80 w-80 text-white text-2xl"
         >
-          <h1 className="font-bold text-5xl leading-wide">
+          <h1 className="font-bold text-4xl md:text-5xl leading-wide">
             New to The Spot? Try our new Chicken Tender Meal!
           </h1>
           <p className="text-2xl">
