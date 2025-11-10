@@ -1,6 +1,7 @@
 import Card from "./reuseable/Card";
 import Image from "next/image";
 import Robot from "./Robot";
+import Nutrition from "./Nutrition";
 
 export default function Burger() {
   return (
@@ -32,6 +33,7 @@ export default function Burger() {
           </Card>
         </div>
         <Robot />
+        <Nutrition />
       </div>
     </section>
   );

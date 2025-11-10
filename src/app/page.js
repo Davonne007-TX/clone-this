@@ -9,9 +9,7 @@ export default function Home() {
     <main className="bg-orange-100 min-h-screen">
       <Header />
       <Hero />
-
       <Exclusive />
-
       <Burger />
     </main>
   );
