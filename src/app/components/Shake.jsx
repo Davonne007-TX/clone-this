@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Shake() {
   return (
-    <section className="relative h-[70vh] md:h-[60vh] lg:h-[50vh] flex items-center justify-center overflow-hidden">
+    <section className="relative max-w-7xl h-[70vh] md:h-[60vh] lg:h-[50vh] flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <Image
         src="/images/shake.jpg"

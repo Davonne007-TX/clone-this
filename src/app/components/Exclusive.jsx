@@ -19,7 +19,7 @@ export default function Exclusive() {
     {
       item: "Burgers",
       src: "/images/burger4.jpg",
-      alt: "Bacon Cheeseburger, Photo by Valeria Boltneva on Pexels",
+      alt: "Bacon Cheeseburger, Photo by Giori Iremafze on Pexels",
       id: 2,
     },
     {
