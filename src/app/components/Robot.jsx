@@ -14,15 +14,16 @@ export default function Robot() {
         <Card
           sectionStyle="max-w-xs md:max-w-md flex flex-col justify-center gap-4 h-full"
           buttonText="Order Now"
-          buttonStyle="text-white bg-blue-600/80 text-2xl w-80"
+          buttonStyle="text-white bg-blue-600/80 text-2xl w-80 mt-2"
         >
           <div className="flex flex-col justify-center items-center  mx-auto gap-4">
             <h1 className="font-bold text-4xl leading-wide">
-              You don't have to get up from the table?
+              Meet iSpot, Your Table Side Delivery Robot
             </h1>
             <p className="text-2xl">
               With our state of the art Robot technology, our iSpot Robot will
-              bring you your coffee or your freshly made burger.
+              deliver your coffee, your meal, right to you. Whether your at one
+              of our locations or nice and comfortable at home. iSpot got you!
             </p>
           </div>
         </Card>

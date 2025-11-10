@@ -3,41 +3,44 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <section className="relative flex justify-center items-center min-h-screen overflow-hidden">
+      {/* Background Image */}
       <Image
         src="/images/tenders2.jpg"
         alt="Chicken tenders and fries"
         fill
-        className="w-full object-cover object-center"
+        className="object-cover object-center brightness-75"
         priority
       />
 
-      <div className="absolute inset-0 bg-black/40"></div>
+      {/* Overlay gradient for depth */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/30 to-black/80"></div>
 
-      <div className="absolute text-center bg-black lg:mt-0 rounded-3xl max-w-xs md:max-w-2xl">
-        <p className="text-4xl md:text-6xl font-bold p-4 tracking-widest text-white drop-shadow-lg">
-          DID <br />{" "}
-          <span className="tracking-widest text-5xl md:text-7xl text=center">
+      {/* Centered Content */}
+      <div className="relative z-10 text-center bg-black/60 backdrop-blur-sm p-10 rounded-3xl shadow-2xl max-w-md md:max-w-2xl border border-white/10">
+        <p className="text-4xl md:text-6xl font-extrabold text-white tracking-widest drop-shadow-lg leading-snug">
+          DID <br />
+          <span className="text-5xl md:text-7xl block text-red-500">
             SOMEONE SAY
           </span>
         </p>
+
         <p
-          className="text-5xl md:text-7xl text-center w-full tracking-wide text-red-600/80 drop-shadow-2xl"
+          className="text-6xl md:text-8xl mt-4 text-red-500 drop-shadow-[0_4px_8px_rgba(0,0,0,0.5)]"
           style={{ fontFamily: "var(--font-slackey)" }}
         >
           TENDERS?
         </p>
 
-        <div className="bg-neutral-100 text-red-600 w-full mt-8 p-4">
-          <div className="flex flex-col  font-bold text-4xl justify-center items-center rounded-t-none p-4">
-            <div className="flex flex-col gap-4 tracking-wide">
-              <p>Crunchy. Fresh. Delicious.</p>
-              <p className="text-black text-xl md:text-2xl">
-                Get your Chicken Tenders on! Its so good you may have to dip
-                twice.
-              </p>
-              <button className="bg-linear-to-r from-red-500 to-red-600/80 hover:scale-105 cursor-pointer text-white rounded-full w-60 lg:w-80 p-2 text-lg md:text-2xl mx-auto">
-                Order on the App
-              </button>
+        {/* Bottom card area */}
+        <div className="mt-10 bg-neutral-100/95 text-red-600 rounded-2xl shadow-lg p-6">
+          <div className="flex flex-col gap-4 text-center">
+            <p className="text-3xl font-bold">Crunchy. Fresh. Delicious.</p>
+            <p className="text-black text-lg md:text-2xl font-medium">
+              Get your Chicken Tenders on! It’s so good you might have to dip
+              twice.
+            </p>
+            <div className="mt-4 bg-linear-to-r from-red-500 to-red-600 text-white rounded-full px-8 py-3 text-lg md:text-2xl font-semibold shadow-md hover:shadow-xl transition-all">
+              Order on the App
             </div>
           </div>
         </div>
