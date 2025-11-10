@@ -41,16 +41,10 @@ export default function Exclusive() {
       id: 5,
     },
     {
-      item: "Drinks",
-      src: "/images/sodas.jpg",
-      alt: "Can of mix sodas, Photo by Charlie Wollborg on Unsplash",
-      id: 6,
-    },
-    {
       item: "Desserts",
       src: "/images/cake.jpg",
       alt: "Cheesecake, Photo by max-nayman on Unsplash",
-      id: 7,
+      id: 6,
     },
   ];
 
