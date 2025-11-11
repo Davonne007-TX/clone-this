@@ -1,8 +1,8 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Exclusive from "./components/Exclusive";
-
 import Burger from "./components/Burger";
+import Footer from "./components/footer/Footer";
 
 export default function Home() {
   return (
@@ -11,6 +11,7 @@ export default function Home() {
       <Hero />
       <Exclusive />
       <Burger />
+      <Footer />
     </main>
   );
 }

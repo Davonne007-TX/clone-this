@@ -12,8 +12,8 @@ export default function Burger() {
             src="/images/burger.jpg"
             alt="Chicken Tender Meal with Toast"
             className="rounded-2xl"
-            width={600}
-            height={600}
+            width={500}
+            height={500}
           />
           <Card
             sectionStyle="max-w-xs md:max-w-md flex flex-col gap-6"

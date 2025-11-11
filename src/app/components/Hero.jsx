@@ -12,11 +12,9 @@ export default function Hero() {
         priority
       />
 
-      {/* Overlay gradient for depth */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/30 to-black/80"></div>
+      <div className="absolute inset-0 bg-linear-to-b from-black/60 via-black/30 to-black/80"></div>
 
-      {/* Centered Content */}
-      <div className="relative z-10 text-center bg-black/60 backdrop-blur-sm p-10 rounded-3xl shadow-2xl max-w-md md:max-w-2xl border border-white/10">
+      <div className="relative z-10 text-center bg-black/60 backdrop-blur-sm p-10 rounded-3xl shadow-2xl max-w-md md:max-w-2xl border border-white/10 mt-40 md:md:mt-0">
         <p className="text-4xl md:text-6xl font-extrabold text-white tracking-widest drop-shadow-lg leading-snug">
           DID <br />
           <span className="text-5xl md:text-7xl block text-red-500">
@@ -31,7 +29,6 @@ export default function Hero() {
           TENDERS?
         </p>
 
-        {/* Bottom card area */}
         <div className="mt-10 bg-neutral-100/95 text-red-600 rounded-2xl shadow-lg p-6">
           <div className="flex flex-col gap-4 text-center">
             <p className="text-3xl font-bold">Crunchy. Fresh. Delicious.</p>
