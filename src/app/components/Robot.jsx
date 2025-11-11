@@ -4,7 +4,7 @@ import Card from "./reuseable/Card";
 export default function Robot() {
   return (
     <section className="flex flex-col lg:flex-row gap-8">
-      <div className="flex flex-col md:flex-row justify-center items-center gap-20">
+      <div className="flex flex-col md:flex-row justify-center items-center gap-14">
         <Image
           src="/images/robot.jpg"
           width={600}

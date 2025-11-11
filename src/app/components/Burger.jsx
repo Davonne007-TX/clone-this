@@ -16,9 +16,9 @@ export default function Burger() {
             height={600}
           />
           <Card
-            sectionStyle="max-w-xs md:max-w-md flex flex-col justify-center items-center gap-6"
+            sectionStyle="max-w-xs md:max-w-md flex flex-col gap-6"
             buttonText="Order Now"
-            buttonStyle="bg-white text-red-600/80 text-2xl w-90"
+            buttonStyle="bg-white text-red-600/80 text-2xl w-80"
           >
             <h1 className="font-bold text-white text-4xl  leading-wide">
               Did someone say Bacon?
@@ -27,7 +27,7 @@ export default function Burger() {
               The Ultimate Bacon Burger is here! Get your juicy beef patty
               topped with crispy bacon, melted cheese, and all the fixings.
             </p>
-            <button className="py-2 w-90 px-4 rounded-full cursor-pointer hover:scale-105 transition-all duration-300 bg-white text-red-600/80 font-bold text-2xl">
+            <button className="py-2 w-80 px-4 rounded-full cursor-pointer hover:scale-105 transition-all duration-300 bg-white text-red-600/80 font-bold text-2xl">
               See All Toppings
             </button>
           </Card>
