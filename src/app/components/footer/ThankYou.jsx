@@ -5,9 +5,12 @@ export default function ThankYou() {
         <p className="mt-4">
           © 2025 The Spot, Davonne's inspired Wendys UI Project
         </p>
-        <p className="border-2 border-white p-2 w-40 text-center">
-          🌎 The World{" "}
-        </p>
+        <select className="border-2 border-white/60 bg-black/40 text-white rounded-lg p-2 w-44 text-center appearance-none focus:outline-none focus:ring-2 focus:ring-white transition-all">
+          <option> 🇺🇸 US - English</option>
+          <option> 🇲🇽 Spanish</option>
+          <option> 🇫🇷 French</option>
+          <option> 🇨🇳 Madarin</option>
+        </select>
       </div>
     </section>
   );
