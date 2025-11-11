@@ -4,7 +4,7 @@ import OurFooterLinks from "./OurFooterLinks";
 
 export default function OurLinks() {
   return (
-    <section>
+    <section className="p-10">
       <div className="flex flex-col lg:flex-row justify-between items-center lg:flex gap-8">
         <OurFooterLinks />
         <ul className="flex gap-4 text-white">
