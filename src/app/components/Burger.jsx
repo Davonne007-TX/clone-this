@@ -16,7 +16,7 @@ export default function Burger() {
             height={500}
           />
           <Card
-            sectionStyle="max-w-xs md:max-w-md flex flex-col gap-6"
+            sectionStyle="max-w-xs md:max-w-sm flex flex-col gap-6"
             buttonText="Order Now"
             buttonStyle="bg-white text-red-600/80 text-2xl w-80"
           >

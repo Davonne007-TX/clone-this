@@ -6,14 +6,17 @@ export default function OurFooterLinks() {
     <section className="grid grid-cols-2 lg:grid-cols-1 gap-4">
       <ul className="flex flex-col lg:flex-row gap-8">
         {footerLinks.map((link) => (
-          <li key={link.id} className="text-xl font-bold">
+          <li key={link.id} className="text-xl font-bold cursor-pointer">
             {link.name}
           </li>
         ))}
       </ul>
       <ul className="flex flex-col lg:flex-row gap-8 md:mt-0">
         {importantLinks.map((link) => (
-          <li key={link.id} className="font-thin text-lg">
+          <li
+            key={link.id}
+            className="font-thin text-lg hover:underline cursor-pointer"
+          >
             {link.name}
           </li>
         ))}

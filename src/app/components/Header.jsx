@@ -68,7 +68,7 @@ export default function Header() {
               <li
                 key={nav.id}
                 style={{ fontFamily: "var(--font-slackey)" }}
-                className="cursor-pointer hover:underline p-2 transition-all duration-300"
+                className="cursor-pointer hover:underline p-2 list-none transition-all duration-300"
                 onClick={() => setMenuOpen(false)}
               >
                 {nav.navLink}

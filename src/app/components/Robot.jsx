@@ -12,7 +12,7 @@ export default function Robot() {
           alt="Robot Delivery"
         />
         <Card
-          sectionStyle="max-w-xs md:max-w-md flex flex-col justify-center gap-4 h-full"
+          sectionStyle="max-w-xs md:max-w-md  flex flex-col justify-center gap-4 h-full"
           buttonText="Order Now"
           buttonStyle="text-white bg-blue-600/80 text-2xl w-80 mt-2"
         >
@@ -20,7 +20,7 @@ export default function Robot() {
             <h1 className="font-bold text-4xl leading-wide">
               Meet iSpot, Your Table Side Delivery Robot
             </h1>
-            <p className="text-2xl">
+            <p className="text-2xl text-pretty">
               With our state of the art Robot technology, our iSpot Robot will
               deliver your coffee, your meal, right to you. Whether your at one
               of our locations or nice and comfortable at home. iSpot got you!
