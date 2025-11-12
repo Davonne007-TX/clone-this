@@ -7,9 +7,9 @@ export default function OurLinks() {
     <section className="p-10">
       <div className="flex flex-col lg:flex-row justify-between items-center lg:flex gap-8">
         <OurFooterLinks />
-        <ul className="flex gap-4 text-white">
+        <ul className="flex gap-4 text-white ">
           {socialMedia.map((media) => (
-            <li key={media.id}>
+            <li key={media.id} className="cursor-pointer">
               <Image src={media.image} alt={media.alt} width={40} height={40} />
             </li>
           ))}
