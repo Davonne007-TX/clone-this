@@ -13,7 +13,7 @@ export default function Hero() {
 
       <div className="absolute inset-0 bg-linear-to-b from-black/60 via-black/30 to-black/80"></div>
 
-      <div className="relative z-10 text-center bg-black/80 backdrop-blur-sm p-8 rounded-3xl  max-w-md md:max-w-2xl border border-white/10 mt-20 md:mt-0 ">
+      <div className="relative z-10 text-center bg-black/80 backdrop-blur-sm p-8 rounded-3xl  max-w-md md:max-w-2xl border border-white/10 mt-10 md:mt-0 ">
         <p className="text-4xl md:text-6xl font-extrabold text-white tracking-widest drop-shadow-lg leading-snug">
           DID <br />
           <span className="text-5xl md:text-7xl block text-white">
